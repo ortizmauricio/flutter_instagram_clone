@@ -13,6 +13,6 @@ At this moment users can:
 - [ ] Change their bio
 
 ## Getting Started
-The entire applicatio is on `lib/main.dart`
+The entire application is on `lib/main.dart`
 
 Refer to `https://flutter.dev/docs/get-started/install` to deploy the application to a mobile phone or to use an emulator 
