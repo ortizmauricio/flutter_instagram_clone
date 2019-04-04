@@ -689,7 +689,10 @@ class _imageScreenState extends State<imageScreen> {
                   new Container(
                     child: new Column(
                       children: <Widget>[
-                        Image.file(_image),
+                        ConstrainedBox(
+                          child: Image.file(_image),
+                          constraints: const BoxConstraints(maxHeight: 300),
+                        ),
                         TextField(
                             controller: captionCtrl, 
                             autocorrect: false,
